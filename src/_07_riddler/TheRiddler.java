@@ -7,7 +7,8 @@ import javax.swing.JOptionPane;
 public class TheRiddler {
 
 	public static void main(String[] args) {
-
+		
+	
 		// 1. Make a variable to hold the score
 int score = 0;
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
@@ -21,7 +22,7 @@ if(answer.equalsIgnoreCase("a coin")) {
 }
 
 		// 6. Add some more riddles
-answer = JOptionPane.showInputDialog("What grows shorter as it grows longer?");
+answer = JOptionPane.showInputDialog("What grows shorter as it grows older?");
 if(answer.equalsIgnoreCase("a candle")) {
 	JOptionPane.showMessageDialog(null, "correct!");
 	score++;
@@ -32,4 +33,5 @@ if(answer.equalsIgnoreCase("a candle")) {
 		JOptionPane.showMessageDialog(null, "Your score is " +score);
 	}
 }
+
 
